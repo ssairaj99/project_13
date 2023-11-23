@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Css Selector</title>
+	<style>
+		h1
+		{
+			color:darkred;
+		}
+		#one:hover
+		{
+			color:limegreen;
+			padding:20px;
+			border:3px solid red;
+			background-color: whitesmoke;
+		}
+		.abc:hover
+		{
+			cursor:pointer;
+			color:darkred;
+			padding:20px;
+			border:3px solid darkblue;
+			background-color: yellow;
+		}
+		h2::first-letter
+		{
+			color:darkviolet;
+		}
+		p::selection
+		{
+			background-color:greenyellow;
+			color:darkred;
+		}
+	</style>
+</head>
+<body>
+     <h1 class="abc">Virat Kholi</h1>
+     <h1 id="one">Virat Kholi</h1>
+     <h1 class="abc">Virat Kholi</h1>
+
+     <h2>Rohit</h2>
+     <h2>Rohit</h2>
+     <h2>Rohit</h2>
+</body>
+</html>

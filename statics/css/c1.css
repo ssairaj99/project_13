@@ -1,0 +1,17 @@
+h1
+{
+  background-color: beige;
+  color: yellowgreen;
+}
+#one:hover{
+    background-color: aquamarine;
+    color: blueviolet;
+    cursor:pointer;
+
+}
+#two:hover{
+    background-color: aquamarine;
+    color: blueviolet;
+    cursor:pointer;
+
+}
